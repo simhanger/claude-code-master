@@ -1,0 +1,12 @@
+Claude Code 학습 프로젝트
+
+이 파일은 Claude Code의 다양한 기능을 학습하고 실습하기 위한 프로젝트의 일부입니다.
+
+학습 주제:
+- 슬래시 명령어 (/commit, /review-pr 등)
+- MCP (Model Context Protocol)
+- 훅 (Hooks)
+- 에이전트 (Agents)
+- 기타 Claude Code 기능들
+
+Java 21 기반 프로젝트로 다양한 코드 작업을 실습합니다.
