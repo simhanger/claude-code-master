@@ -74,3 +74,4 @@ logs/
 *.temp
 *.swp
 *.swo
+/CLAUDE.local.md

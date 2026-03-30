@@ -18,6 +18,7 @@ Claude Code의 다양한 기능(슬래시 명령어, MCP, 훅, 에이전트 등)
 - **IDE**: IntelliJ IDEA
 - **JDK**: homebrew-21
 - **Git 원격**: https://github.com/simhanger/claude-code-master.git
+- **브랜치 전략**: `main` (안정), `develop` (개발)
 
 ## 프로젝트 구조
 
@@ -26,6 +27,8 @@ claude-code-mastery/
 ├── profile/
 │   └── index.html        # 개인 포트폴리오 웹사이트 (Tailwind CSS CDN + inline JS)
 ├── study.txt             # Claude Code 학습 노트
+├── CLAUDE.md             # Claude Code 공유 설정 (이 파일)
+├── CLAUDE.local.md       # 개인 설정 (gitignore 처리됨)
 └── .claude/
     ├── settings.json     # plans 디렉토리 설정
     └── plans/            # 계획 파일 저장 위치
@@ -41,10 +44,10 @@ claude-code-mastery/
 
 ## 빌드 및 실행
 
-빌드 도구가 추가되면 아래에 명령어를 기록합니다.
+현재 빌드 도구 미설정. 추가 시 아래 명령어 사용:
 
-- **Maven 사용 시**: `mvn compile`, `mvn test`, `mvn test -Dtest=TestClassName`
-- **Gradle 사용 시**: `./gradlew build`, `./gradlew test`, `./gradlew test --tests "패키지.클래스명"`
+- **Maven**: `mvn compile`, `mvn test`, `mvn test -Dtest=TestClassName`
+- **Gradle**: `./gradlew build`, `./gradlew test`, `./gradlew test --tests "패키지.클래스명"`
 
 컴파일 출력 디렉토리: `out/` (IntelliJ 기본 설정)
 
